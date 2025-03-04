@@ -59,7 +59,7 @@ export default function Footer() {
             </div>
             <div className="flex space-x-4 justify-center md:justify-start">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100047803942371&ref=hl#"
                 target={"_blank"}
                 className="text-muted-foreground hover:text-primary"
               >

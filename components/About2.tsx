@@ -8,35 +8,28 @@ const About2 = () => {
     <div>
       <div className="container px-2 md:px-4 py-10 md:py-20 mx-auto flex flex-col md:flex-row gap-6 md:gap-20 items-center">
         <div className=" md:w-2/3 space-y-3 md:space-y-8">
-          <h2 className="text-4xl font-bold md:text-6xl text-primary flex flex-col  text-center">
-            Šlep služba Čačak - Purić{" "}
-            <span className="text-2xl font-normal md:text-3xl  text-muted-foreground">
-              Do 10 tona nosivosti
+          <h2 className="text-4xl font-bold md:text-6xl primary-text-gradient flex flex-col  text-center">
+            SZR M-MIGIĆ
+            <span className="text-2xl  md:text-3xl  text-primary">
+              Profesionalni visinski radovi i industrijski alpinizam
             </span>
           </h2>
           <p className=" first-letter:pl-6 text-lg md:text-3xl">
-            Tražite{" "}
-            <span className="font-bold">pouzdanu šlep službu u Čačku</span> i
-            okolini? Naša profesionalna ekipa je dostupna 24/7 i spremna da vam
-            pomogne u bilo kojoj situaciji – bilo da je u pitanju{" "}
-            <span className="font-bold">
-              kvar, saobraćajna nezgoda, probušena guma
-            </span>{" "}
-            ili bilo koji drugi problem na putu.
+            <span className="font-bold primary-text-gradient">SZR M-MIGIC</span>{" "}
+            je specijalizovana radnja za izvođenje radova na visini primenom
+            industrijskog alpinizma – moderne tehnike koja omogućava efikasan,
+            siguran i pristupačan način obavljanja najzahtevnijih zadataka bez
+            upotrebe skela i teške mehanizacije.
           </p>
           <p className=" first-letter:pl-6 text-lg md:text-3xl">
-            Naša šlep služba pruža siguran i brz transport vozila na teritoriji
-            <span className="font-bold">
-              Čačka, Gornjeg Milanovca, Kraljeva, Užica i cele Srbije
+            Naš tim čine{" "}
+            <span className="font-bold primary-text-gradient">
+              iskusni industrijski alpinisti
             </span>
-            . Bez obzira na to da li vam je potreban{" "}
-            <span className="font-bold">
-              prevoz automobila, kombija, motocikla ili lakših teretnih vozila
-            </span>
-            , posedujemo specijalizovana vozila i opremu za bezbedan transport.
-          </p>
-          <p className="first-letter:pl-6 text-lg md:text-3xl">
-            Kontaktirajte nas 24/7 i obezbedite siguran prevoz vašeg vozila.
+            , obučeni za rad u ekstremnim uslovima, uz korišćenje
+            najkvalitetnije opreme renomiranih svetskih proizvođača. Posvećenost
+            bezbednosti, preciznosti i profesionalizmu omogućila nam je da
+            steknemo poverenje brojnih klijenata iz različitih industrija.
           </p>
         </div>
         <motion.div
@@ -47,10 +40,10 @@ const About2 = () => {
           className="rounded-3xl overflow-hidden  md:w-1/3"
         >
           <Image
-            src={"/puric.jpg"}
+            src={"/hero3.jpg"}
             width={500}
             height={800}
-            alt="slep puric cacak "
+            alt="industrijski alpinizam"
             className="object-cover h-[300px] md:h-full"
           />
         </motion.div>

@@ -249,19 +249,91 @@ export const cards2Data: Cards2Data[] = [
   {
     id: 1,
     icon: GiWeight,
-    title: "Elektroinstalacije",
+    title:
+      "- Postavljanje dekoracija i elektroinstalacija na zgrade, crkve i zvonike…",
     text: "",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "Elektro ormani",
+    title:
+      "- Fasaderski radovi, postavljanje termoizolacione fasade, popravka, bojenje…",
     text: "",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "Industrijski elektro ormani",
+    title: "- Montaza i demontaza reklama, natpisa…",
+    text: "",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "- Postavljanje i održavanje gromobrana i oluka.",
+    text: "",
+  },
+  {
+    id: 5,
+    icon: GiWeight,
+    title: "- Radovi na zvonicima tornjevima i antenskim stubovima.",
+    text: "",
+  },
+  {
+    id: 6,
+    icon: GiWeight,
+    title: "- Montaža i postavljanje svih vrsta skela na nedostupnim mjestima.",
+    text: "",
+  },
+  {
+    id: 7,
+    icon: GiWeight,
+    title: "- Postavljanje klima i drugih uređaja na nedostupnim mjestima",
+    text: "",
+  },
+];
+
+export const cards3Data: Cards2Data[] = [
+  {
+    id: 1,
+    icon: GiWeight,
+    title: "- Postavljanje zaštita od ptica.",
+    text: "",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "- Krovopokrivacki i limarski radovi.",
+    text: "",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "- Ciscenje snega i ledenica sa krova.",
+    text: "",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title:
+      "- Podizanje kabastog tereta na visine i da 200 metara sistemom koturaca.",
+    text: "",
+  },
+  {
+    id: 5,
+    icon: GiWeight,
+    title: "- Pranje i farbanje krovova.",
+    text: "",
+  },
+  {
+    id: 6,
+    icon: GiWeight,
+    title: "- Orezivanje grana, krosanja i drveca",
+    text: "",
+  },
+  {
+    id: 7,
+    icon: GiWeight,
+    title: "- Pranje fasada, prozora, skidanje grafita…",
     text: "",
   },
 ];

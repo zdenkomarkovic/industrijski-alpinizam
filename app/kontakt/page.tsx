@@ -113,7 +113,7 @@ export default function Contact() {
                 </button>
               </a>
               <a
-                href=""
+                href="https://www.facebook.com/profile.php?id=100047803942371&ref=hl#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-[7px] flex border-b-[1px] border-primary "
@@ -121,7 +121,7 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <Facebook className=" text-[28px] lg:text-[30px]" />
-                  Manikam Starter
+                  Visinski Radovi M- MIGIC
                 </button>
               </a>
             </div>

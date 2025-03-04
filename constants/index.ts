@@ -245,7 +245,7 @@ export interface Cards2Data {
   text: string;
 }
 
-export const cards2Data: Cards2Data[] = [
+export const cards2Data1: Cards2Data[] = [
   {
     id: 1,
     icon: GiWeight,
@@ -292,7 +292,7 @@ export const cards2Data: Cards2Data[] = [
   },
 ];
 
-export const cards3Data: Cards2Data[] = [
+export const cards2Data2: Cards2Data[] = [
   {
     id: 1,
     icon: GiWeight,
@@ -337,10 +337,152 @@ export const cards3Data: Cards2Data[] = [
     text: "",
   },
 ];
+export const cards2Data3: Cards2Data[] = [
+  {
+    id: 1,
+    icon: GiWeight,
+    title: "Veća fleksibilnost",
+    text: "Rad na teško dostupnim mestima bez obzira na visinu ili teren.",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "Brža realizacija",
+    text: "Nema potrebe za dugotrajnom montažom skela, što smanjuje vreme izvođenja radova.",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "Niži troškovi",
+    text: "Izbegavaju se visoki troškovi postavljanja i uklanjanja skele, što čini ovu metodu isplativijom.",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "Maksimalna sigurnost",
+    text: "Naši radnici su konstantno osigurani užetom, što eliminiše rizik od pada.",
+  },
+  {
+    id: 5,
+    icon: GiWeight,
+    title: "Minimalni uticaj na okruženje",
+    text: "Radovi se obavljaju bez narušavanja poslovnih i stambenih prostora.",
+  },
+];
 
 export interface Cards2DataText {
   text: string;
 }
 export const cards2DataText: Cards2DataText = {
-  text: "Pružamo usluge izrade, montaže i održavanja elektro ormana za domaćinstva, poslovne prostore i industrijska postrojenja. Naš tim vodi računa o kvalitetu instalacija i bezbednosti sistema, uz poštovanje svih standarda i propisa.",
+  text: "Industrijski alpinizam je sve češće korišćena tehnika u građevinarstvu, jer omogućava brz, siguran i ekonomičan način izvođenja radova na visini. Za razliku od tradicionalnih metoda koje podrazumevaju skupe skele i dizalice, pristup užetom pruža brojne prednosti.",
 };
+
+export interface Reference {
+  title: string;
+  link: string;
+}
+
+export const reference: Reference[] = [
+  {
+    title: "In Hotel Beograd",
+    link: "/in.jpg",
+  },
+  {
+    title: "Bali Paradizo hotel",
+    link: "/bali.jpg",
+  },
+  {
+    title: "Central Park Hotel",
+    link: "/central.svg",
+  },
+
+  {
+    title: "NIS Petrol",
+    link: "/nis.svg",
+  },
+
+  {
+    title: "Delhaize Srbija",
+    link: "/deleze.svg",
+  },
+  {
+    title: "Građevinska direkcija Srbije ",
+    link: "/gds.png",
+  },
+  {
+    title: "Građevinska direkcija Prijepolje",
+    link: "/gds.png",
+  },
+  {
+    title: "Građevinska direkcija Novi Sad,",
+    link: "/gds.png",
+  },
+  {
+    title: "Građevinska direkcija Beograd",
+    link: "/gds.png",
+  },
+  {
+    title: "Građevinska direkcija Valjevo",
+    link: "/gds.png",
+  },
+  {
+    title: "TownHouse 27 Hotel",
+    link: "/town.png",
+  },
+  {
+    title: "Francuski kulturni centar",
+    link: "/francuski.png",
+  },
+  {
+    title: "Bolnica Nova Vita",
+    link: "/novavita.gif",
+  },
+  {
+    title: "Fiat Automobili Srbija",
+    link: "/fiat.png",
+  },
+  {
+    title: "Institut za molekularnu genetiku i genetičko inženjerstvo",
+    link: "/institut.webp",
+  },
+  {
+    title: "Fakultet sporta i fizičkog vaspitanja „Dif“",
+    link: "",
+  },
+  {
+    title: "TE- KO Kostolac d.o.o. Kostolac",
+    link: "",
+  },
+  {
+    title: "Skupština stanara…",
+    link: "",
+  },
+  {
+    title: "Motel Stari Hrast",
+    link: "",
+  },
+  {
+    title: "Radisson Blu Old Mill Hotel",
+    link: "",
+  },
+  {
+    title: "Holcim Srbija d.o.o.",
+    link: "",
+  },
+  {
+    title: "Roda Megamarketi",
+    link: "",
+  },
+  {
+    title: "Klinički centar Srbije",
+    link: "",
+  },
+  {
+    title: "Sportsko Poslovni Centar Odžaci",
+    link: "",
+  },
+  {
+    title: "BEOKRAN DOO",
+    link: "",
+  },
+];

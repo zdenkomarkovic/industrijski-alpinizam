@@ -5,7 +5,7 @@ import MotionComponent1 from "./MotionComponent1";
 const Cards3Kosina = ({ data }: { data: Cards2Data[] }) => {
   return (
     <div className="">
-      <div className="container mx-auto py-10 ">
+      <div className="container mx-auto py-3 md:py-4 ">
         <div className="flex flex-col text-center gap-6 md:gap-8 items-stretch h-full">
           {data.map((item) => {
             return (
@@ -34,7 +34,7 @@ const OneCard = ({ item }: { item: Cards2Data }) => {
       </svg>
 
       <CardHeader className="relative z-10">
-        <div className=" text-xl md:text-2xl primary-text-gradient text-left flex gap-3 items-center justify-start">
+        <div className=" text-xl md:text-2xl text-left flex gap-3 items-center justify-start">
           <p className="">{item.title}</p>
         </div>
       </CardHeader>

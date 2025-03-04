@@ -2,7 +2,7 @@
 import Image from "@/node_modules/next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import { cards2Data, cards3Data } from "@/constants/index";
+import { cards2Data1, cards2Data2 } from "@/constants/index";
 import Cards3Kosina from "./Cards3Kosina";
 
 const ServicesWithImage = () => {
@@ -17,7 +17,7 @@ const ServicesWithImage = () => {
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="rounded-3xl overflow-hidden  md:w-1/3"
+          className=" hidden md:block rounded-3xl overflow-hidden  md:w-1/3"
         >
           <Image
             src={"/services.jpg"}
@@ -28,12 +28,12 @@ const ServicesWithImage = () => {
           />
         </motion.div>
         <div className=" ">
-          <Cards3Kosina data={cards2Data} />
+          <Cards3Kosina data={cards2Data1} />
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-around items-center ">
         <div className=" ">
-          <Cards3Kosina data={cards3Data} />
+          <Cards3Kosina data={cards2Data2} />
         </div>
         <motion.div
           initial={{ scale: 0.2, opacity: 0 }}
@@ -51,7 +51,7 @@ const ServicesWithImage = () => {
           />
         </motion.div>
       </div>
-      <p className="primary-text-gradient text-3xl font-bold">
+      <p className="primary-text-gradient text-xl md:text-3xl font-bold pt-5">
         Ako na ovom spisku nema to sto vama treba neznaci da to neradimo –
         Pozovite i proverite.
       </p>

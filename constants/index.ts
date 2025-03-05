@@ -13,30 +13,34 @@ export const navList = [
     title: "Početna",
     link: "/",
   },
+  // {
+  //   title: "Usluge",
+  //   list: [
+  //     {
+  //       title: "Kuhinje",
+  //       link: "",
+  //     },
+  //     {
+  //       title: "Plakari",
+  //       link: "",
+  //     },
+  //     {
+  //       title: "TV Komode",
+  //       link: "",
+  //     },
+  //     {
+  //       title: "Projektovanje Enterijera",
+  //       link: "",
+  //     },
+  //   ],
+  // },
   {
-    title: "Usluge",
-    list: [
-      {
-        title: "Kuhinje",
-        link: "",
-      },
-      {
-        title: "Plakari",
-        link: "",
-      },
-      {
-        title: "TV Komode",
-        link: "",
-      },
-      {
-        title: "Projektovanje Enterijera",
-        link: "",
-      },
-    ],
+    title: "Krovopokrivanje",
+    link: "/krovopokrivanje",
   },
   {
-    title: "Proizvodi",
-    link: "/proizvodi",
+    title: "Limarski radovi",
+    link: "/limarskiradovi",
   },
   {
     title: "Kontakt",
@@ -484,5 +488,51 @@ export const reference: Reference[] = [
   {
     title: "BEOKRAN DOO",
     link: "",
+  },
+];
+
+export interface Krovopokrivac {
+  title: string;
+  text: string;
+}
+
+export const krovopokrivacke: Krovopokrivac[] = [
+  {
+    title: "Sve oblike krovova",
+    text: " – klasični, moderni, krovovi sa više nivoa i specijalni dizajni.",
+  },
+  {
+    title: " Sve vrste pokrivnih materijala",
+    text: " – crep, lim, tegola, bitumenski i metalni pokrivači.",
+  },
+  {
+    title: "Sanacija curenja",
+    text: " – brzo i efikasno rešavanje problema prokišnjavanja i oštećenja.",
+  },
+  {
+    title: "Izrada nadstrešnica",
+    text: " – zaštita ulaza, terasa, automobila i dvorišnih prostora.",
+  },
+  {
+    title: "Izrada badža",
+    text: " – funkcionalni i estetski dodaci na krovu koji poboljšavaju ventilaciju i osvetljenje.",
+  },
+  {
+    title: "Izrada letnjikovaca",
+    text: " – konstrukcije prilagođene vašem dvorištu za uživanje u hladu.",
+  },
+];
+export const limarija: Krovopokrivac[] = [
+  {
+    title: "Proizvodnja građevinske limarije",
+    text: " – izrada svih limenih elemenata u našoj radionici, po meri i od svih vrsta materijala.",
+  },
+  {
+    title: "Ugradnja na terenu",
+    text: " – precizna i kvalitetna montaža limenih delova na krovu i fasadi.",
+  },
+  {
+    title: "Sve vrste sanacija curenja",
+    text: " – otklanjanje problema sa prokišnjavanjem, zamena oštećenih limova i poboljšanje hidroizolacije.",
   },
 ];

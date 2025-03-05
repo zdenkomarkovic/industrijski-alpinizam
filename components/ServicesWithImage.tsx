@@ -11,7 +11,7 @@ const ServicesWithImage = () => {
       <h2 className="text-2xl md:text-5xl text-primary font-bold py-3 md:py-20">
         Evo za sta sve mozete da se obratite nama
       </h2>
-      <div className="flex flex-col md:flex-row justify-around items-center ">
+      <div className="flex flex-col md:flex-row gap-6 justify-around items-center ">
         <motion.div
           initial={{ scale: 0.2, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}

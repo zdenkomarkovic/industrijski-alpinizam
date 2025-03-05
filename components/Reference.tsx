@@ -5,8 +5,8 @@ import React from "react";
 const Reference = () => {
   return (
     <div>
-      <div className="container px-2 md:px-4 mx-auto ">
-        <h1 className="text-6xl text-primary text-center py-70 md:py-10">
+      <div className="container px-2 md:px-4 mx-auto py-5 ">
+        <h1 className="text-6xl text-primary text-center py-4 md:py-10">
           Reference{" "}
         </h1>
         <div className="grid md:grid-cols-5 gap-5">
@@ -28,7 +28,7 @@ const Reference = () => {
             );
           })}
         </div>
-        <div className="grid0 md:grid-cols-5 gap-5 pt-5">
+        <div className="grid md:grid-cols-5 gap-5 pt-5">
           {reference.slice(15).map((item, i) => {
             return (
               <div

@@ -1,6 +1,5 @@
 import About2 from "@/components/About2";
 import BackgroundImage from "@/components/BackgroundImage";
-import Cardlist from "@/components/Cardlist";
 import Cards2 from "@/components/Cards2";
 import Hero from "@/components/Hero";
 import PozoviteNasOdmah from "@/components/PozoviteNasOdmah";
@@ -21,9 +20,8 @@ export default function Home() {
         text={cards2DataText}
       />
       <BackgroundImage image={"/bgImage.jpg"} />
-      <Cardlist />
-      <BackgroundImage image={"/servis.jpg"} />
       <Reference />
+      <BackgroundImage image={"/servis.jpg"} />
     </div>
   );
 }

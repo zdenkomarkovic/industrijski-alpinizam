@@ -21,7 +21,7 @@ export default function Home() {
       />
       <BackgroundImage image={"/bgImage.jpg"} />
       <Reference />
-      <BackgroundImage image={"/servis.jpg"} />
+      <BackgroundImage image={"/painting-bilo-silo-two-asce.jpg"} />
     </div>
   );
 }

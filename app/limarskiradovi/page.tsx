@@ -1,5 +1,6 @@
+import ImageEditor from "@/components/ImageEditor";
 import ServicesWithImage2 from "@/components/ServicesWithImage2";
-import { limarija } from "@/constants/index";
+import { limarija, limSlike } from "@/constants/index";
 import React from "react";
 
 const page = () => {
@@ -22,7 +23,8 @@ const page = () => {
         <h3 className="text-2xl md:text-4xl primary-text-gradient pl-20">
           Naše usluge
         </h3>
-        <ServicesWithImage2 image={"/servis.jpg"} data={limarija} />
+        <ServicesWithImage2 image={"/lim3.webp"} data={limarija} />
+        <ImageEditor images={limSlike} />
       </div>
     </div>
   );

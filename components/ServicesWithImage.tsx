@@ -20,7 +20,7 @@ const ServicesWithImage = () => {
           className=" hidden md:block rounded-3xl overflow-hidden  md:w-1/3"
         >
           <Image
-            src={"/services.jpg"}
+            src={"/slika1464-e1401544851618.jpg"}
             width={500}
             height={500}
             alt="industrijski alpinizam"

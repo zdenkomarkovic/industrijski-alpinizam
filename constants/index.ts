@@ -536,3 +536,16 @@ export const limarija: Krovopokrivac[] = [
     text: " – otklanjanje problema sa prokišnjavanjem, zamena oštećenih limova i poboljšanje hidroizolacije.",
   },
 ];
+
+export const limSlike: string[] = [
+  "/lim.jpg",
+  "/lim.webp",
+  "/lim2.jpg",
+  "/lim3.webp",
+];
+export const krovSlike: string[] = [
+  "/krov.jpg",
+  "/krov2.jpg",
+  "/krov3.jpg",
+  "/krov4.jpg",
+];

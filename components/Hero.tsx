@@ -61,33 +61,13 @@ const Hero = () => {
         </CarouselContent>
       </Carousel>
       <div className="relative flex flex-col gap-6 w-full items-center justify-center text-white z-[1] text-center">
-        <h1 className="primary-text-gradient md:text-[4rem] text-4xl font-semibold max-w-[900px] leading-[1.2] px-4">
+        <h1 className="flex flex-col primary-text-gradient md:text-[4rem] text-3xl font-semibold max-w-[900px] leading-[1.2] px-4">
           INDUSTRIJSKI ALPINIZAM
+          <span className="text-5xl md:text-8xl">M Migic</span>
         </h1>
         <h2 className="text-background font-medium md:text-4xl text-2xl max-w-[800px] px-4">
           Alpinisticki radovi u industriji
         </h2>
-        <div className="flex flex-col gap-4 md:flex-row">
-          <Link href="/proizvodi">
-            <motion.button
-              whileHover={{ translateY: "-5px" }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 primary-gradient text-foreground px-4 py-2 md:px-8 md:py-3 rounded-lg font-medium"
-            >
-              Istražite naše proizvode
-              <ArrowRightIcon className="w-[18px]" />
-            </motion.button>
-          </Link>
-          <a href="tel:+3816000000">
-            <motion.button
-              whileHover={{ translateY: "-5px" }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-transparent border-background border-[1px] rounded-lg px-4 md:px-8 md:py-3 py-2 font-medium"
-            >
-              Pozovite odmah
-            </motion.button>
-          </a>
-        </div>
       </div>
     </div>
   );

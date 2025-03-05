@@ -32,21 +32,21 @@ const Hero = () => {
           <CarouselItem>
             <Image
               src={Hero1}
-              alt="Moderna dnevna soba"
+              alt="visinski radovi"
               className="w-full h-[100dvh] object-cover"
             />
           </CarouselItem>
           <CarouselItem>
             <Image
               src={Hero2}
-              alt="Elegantna dnevna soba"
+              alt="visinski radovi"
               className="w-full h-[100dvh] object-cover"
             />
           </CarouselItem>
           <CarouselItem>
             <Image
               src={Hero3}
-              alt="Luksuzni plakar"
+              alt="visinski radovi"
               className="w-full h-[100dvh] object-cover"
             />
           </CarouselItem>
@@ -55,7 +55,7 @@ const Hero = () => {
       <div className="relative flex flex-col gap-6 w-full items-center justify-center text-white z-[1] text-center">
         <h1 className="flex flex-col primary-text-gradient md:text-[4rem] text-3xl font-semibold max-w-[900px] leading-[1.2] px-4">
           INDUSTRIJSKI ALPINIZAM
-          <span className="text-5xl md:text-8xl">M Migic</span>
+          <span className="text-5xl md:text-8xl py-5">M Migic</span>
         </h1>
         <h2 className="text-background font-medium md:text-4xl text-2xl max-w-[800px] px-4">
           Alpinisticki radovi u industriji

@@ -1,12 +1,13 @@
 import ImageEditor from "@/components/ImageEditor";
+import PozoviteNasOdmah from "@/components/PozoviteNasOdmah";
 import ServicesWithImage2 from "@/components/ServicesWithImage2";
 import { limarija, limSlike } from "@/constants/index";
 import React from "react";
 
 const page = () => {
   return (
-    <div className="pt-24 md:pb-20">
-      <div className="container px-2 md:px-4 mx-auto  space-y-5 md:space-y-10">
+    <div className="">
+      <div className="container px-2 md:px-4 mx-auto pt-24 pb-8 md:pb-20 space-y-5 md:space-y-10">
         <h1 className="text-2xl md:text-5xl primary-text-gradient text-center">
           Građevinska limarija – Zaštita i dugotrajnost vašeg krova
         </h1>
@@ -26,6 +27,7 @@ const page = () => {
         <ServicesWithImage2 image={"/lim3.webp"} data={limarija} />
         <ImageEditor images={limSlike} />
       </div>
+      <PozoviteNasOdmah />
     </div>
   );
 };

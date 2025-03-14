@@ -13,29 +13,12 @@ export const navList = [
     title: "Početna",
     link: "/",
   },
-  // {
-  //   title: "Usluge",
-  //   list: [
-  //     {
-  //       title: "Kuhinje",
-  //       link: "",
-  //     },
-  //     {
-  //       title: "Plakari",
-  //       link: "",
-  //     },
-  //     {
-  //       title: "TV Komode",
-  //       link: "",
-  //     },
-  //     {
-  //       title: "Projektovanje Enterijera",
-  //       link: "",
-  //     },
-  //   ],
-  // },
   {
-    title: "Krovopokrivanje",
+    title: "Industrijski alpinizam",
+    link: "/industrijskialpinizam",
+  },
+  {
+    title: "Krovopokrivački radovi",
     link: "/krovopokrivanje",
   },
   {
@@ -544,8 +527,8 @@ export const limSlike: string[] = [
   "/lim3.webp",
 ];
 export const krovSlike: string[] = [
-  "/krov.jpg",
-  "/krov2.jpg",
   "/krov3.jpg",
+  "/krov2.jpg",
+  "/krov.jpg",
   "/krov4.jpg",
 ];

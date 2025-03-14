@@ -1,12 +1,13 @@
 import ImageEditor from "@/components/ImageEditor";
+import PozoviteNasOdmah from "@/components/PozoviteNasOdmah";
 import ServicesWithImage2 from "@/components/ServicesWithImage2";
 import { krovopokrivacke, krovSlike } from "@/constants/index";
 import React from "react";
 
 const page = () => {
   return (
-    <div className="pt-24 md:pb-20">
-      <div className="container px-2 md:px-4 mx-auto space-y-5 md:space-y-10">
+    <div className="">
+      <div className="container px-2 md:px-4 pt-24 pb-8 md:pb-20 mx-auto space-y-5 md:space-y-10">
         <h1 className="text-2xl md:text-5xl font-bold primary-text-gradient text-center">
           Krovopokrivački radovi – Sigurnost i dugotrajnost vašeg krova
         </h1>
@@ -22,6 +23,7 @@ const page = () => {
         <ServicesWithImage2 image={"/krov.jpg"} data={krovopokrivacke} />
         <ImageEditor images={krovSlike} />
       </div>
+      <PozoviteNasOdmah />
     </div>
   );
 };

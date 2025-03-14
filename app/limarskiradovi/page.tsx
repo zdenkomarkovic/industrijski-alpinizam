@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div className="">
       <div className="container px-2 md:px-4 mx-auto pt-24 pb-8 md:pb-20 space-y-5 md:space-y-10">
-        <h1 className="text-2xl md:text-5xl primary-text-gradient text-center">
+        <h1 className="text-2xl md:text-5xl font-bold primary-text-gradient text-center">
           Građevinska limarija – Zaštita i dugotrajnost vašeg krova
         </h1>
         <p className="text-lg md:text-2xl first-letter:pl-6">

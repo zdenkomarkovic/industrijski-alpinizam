@@ -23,7 +23,11 @@ const page = () => {
         <ServicesWithImage2 image={"/krov.jpg"} data={krovopokrivacke} />
         <ImageEditor images={krovSlike} />
       </div>
-      <PozoviteNasOdmah />
+      <PozoviteNasOdmah
+        title={
+          "Za visinske radove, SZR M-MIGIC vam stoji na raspolaganju. Kontaktirajte nas za besplatnu procenu."
+        }
+      />
     </div>
   );
 };

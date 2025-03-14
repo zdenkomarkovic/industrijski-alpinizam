@@ -51,10 +51,6 @@ const ServicesWithImage = () => {
           />
         </motion.div>
       </div>
-      <p className="primary-text-gradient text-xl md:text-3xl font-bold pt-5">
-        Ako na ovom spisku nema to sto vama treba neznaci da to neradimo –
-        Pozovite i proverite.
-      </p>
     </div>
   );
 };

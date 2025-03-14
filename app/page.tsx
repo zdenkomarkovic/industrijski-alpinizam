@@ -11,7 +11,11 @@ export default function Home() {
     <div className="">
       <Hero />
       <About2 />
-      <PozoviteNasOdmah />
+      <PozoviteNasOdmah
+        title={
+          "Za visinske radove, SZR M-MIGIC vam stoji na raspolaganju. Kontaktirajte nas za besplatnu procenu."
+        }
+      />
 
       <Cards2
         title={"Prednosti industrijskog alpinizma"}

@@ -21,13 +21,21 @@ const page = () => {
           reši sve izazove – bez obzira na nepristupačnost terena i složenost
           radova.
         </p>
+        <p className="text-lg md:text-2xl first-letter:pl-6">
+          U vlastitoj radionici proizvodimo kompletnu gradjevinsku limariju svih
+          oblika i od svih materijala i vrsimo ugradnju na terenu.
+        </p>
         <h3 className="text-2xl md:text-4xl primary-text-gradient pl-20">
           Naše usluge
         </h3>
         <ServicesWithImage2 image={"/lim3.webp"} data={limarija} />
         <ImageEditor images={limSlike} />
       </div>
-      <PozoviteNasOdmah />
+      <PozoviteNasOdmah
+        title={
+          "Za visinske radove, SZR M-MIGIC vam stoji na raspolaganju. Kontaktirajte nas za besplatnu procenu."
+        }
+      />
     </div>
   );
 };

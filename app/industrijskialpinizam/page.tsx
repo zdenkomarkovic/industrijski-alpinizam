@@ -5,7 +5,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <div className="container px-2 md:px-4 mx-auto pt-24 pb-8 md:pb-20 space-y-5 md:space-y-10">
+      <div className="container px-2 md:px-4 mx-auto pt-24 space-y-5 md:space-y-10">
         {" "}
         <h1 className="text-2xl md:text-5xl font-bold primary-text-gradient text-center">
           Industrijski alpinizam

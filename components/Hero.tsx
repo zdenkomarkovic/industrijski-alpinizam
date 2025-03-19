@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/carousel";
 import Fade from "embla-carousel-fade";
 import Autoplay from "embla-carousel-autoplay";
-import Hero1 from "../public/hero1.jpg";
+import Hero1 from "../public/alpinizam (11).jpg";
 import Hero2 from "../public/hero2.jpg";
 import Hero3 from "../public/hero3.jpg";
 import Image from "next/image";
@@ -55,10 +55,10 @@ const Hero = () => {
       <div className="relative flex flex-col gap-6 w-full items-center justify-center text-white z-[1] text-center">
         <h1 className="flex flex-col primary-text-gradient md:text-[4rem] text-3xl font-semibold max-w-[900px] leading-[1.2] px-4">
           INDUSTRIJSKI ALPINIZAM
-          <span className="text-5xl md:text-8xl py-5">M Migic</span>
+          <span className="text-5xl md:text-8xl py-5">M Migić</span>
         </h1>
         <h2 className="text-background font-medium md:text-4xl text-2xl max-w-[800px] px-4">
-          Alpinisticki radovi u industriji
+          Alpinistički radovi u industriji
         </h2>
       </div>
     </div>

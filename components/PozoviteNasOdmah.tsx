@@ -8,7 +8,7 @@ const PozoviteNasOdmah = ({ title }: { title: string }) => {
     <div className="bg-muted-foreground text-primary py-10 md:py-20">
       <div className="container px-2 md:px-4 mx-auto font-bold flex flex-col md:flex-row items-center gap-10 md:gap-20">
         <h2 className="text-xl md:text-4xl text-center ">{title}</h2>
-        <a href="tel:+381659480700">
+        <a href="tel:+38162332476">
           <motion.button
             whileHover={{ translateY: "-5px" }}
             whileTap={{ scale: 0.95 }}

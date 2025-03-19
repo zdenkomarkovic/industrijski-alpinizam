@@ -7,6 +7,10 @@ import { IoIosPeople } from "react-icons/io";
 import { IoIosPerson } from "react-icons/io";
 import { PiRocketLaunchBold } from "react-icons/pi";
 import { LuTimerReset } from "react-icons/lu";
+import { MdOutlineSavings } from "react-icons/md";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
+import { VscSurroundWith } from "react-icons/vsc";
+import { GiMountainClimbing } from "react-icons/gi";
 
 export const navList = [
   {
@@ -250,7 +254,7 @@ export const cards2Data1: Cards2Data[] = [
   {
     id: 3,
     icon: GiWeight,
-    title: "- Montaza i demontaza reklama, natpisa…",
+    title: "- Montaža i demontaža reklama, natpisa…",
     text: "",
   },
   {
@@ -289,20 +293,20 @@ export const cards2Data2: Cards2Data[] = [
   {
     id: 2,
     icon: GiWeight,
-    title: "- Krovopokrivacki i limarski radovi.",
+    title: "- Krovopokrivački i limarski radovi.",
     text: "",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "- Ciscenje snega i ledenica sa krova.",
+    title: "- Čišćenje snega i ledenica sa krova.",
     text: "",
   },
   {
     id: 4,
     icon: GiWeight,
     title:
-      "- Podizanje kabastog tereta na visine i da 200 metara sistemom koturaca.",
+      "- Podizanje kabastog tereta na visine i do 200 metara sistemom koturača.",
     text: "",
   },
   {
@@ -314,7 +318,7 @@ export const cards2Data2: Cards2Data[] = [
   {
     id: 6,
     icon: GiWeight,
-    title: "- Orezivanje grana, krosanja i drveca",
+    title: "- Orezivanje grana, krošanja i drveća",
     text: "",
   },
   {
@@ -327,31 +331,31 @@ export const cards2Data2: Cards2Data[] = [
 export const cards2Data3: Cards2Data[] = [
   {
     id: 1,
-    icon: GiWeight,
+    icon: GiMountainClimbing,
     title: "Veća fleksibilnost",
     text: "Rad na teško dostupnim mestima bez obzira na visinu ili teren.",
   },
   {
     id: 2,
-    icon: GiWeight,
+    icon: LuTimerReset,
     title: "Brža realizacija",
     text: "Nema potrebe za dugotrajnom montažom skela, što smanjuje vreme izvođenja radova.",
   },
   {
     id: 3,
-    icon: GiWeight,
+    icon: MdOutlineSavings,
     title: "Niži troškovi",
     text: "Izbegavaju se visoki troškovi postavljanja i uklanjanja skele, što čini ovu metodu isplativijom.",
   },
   {
     id: 4,
-    icon: GiWeight,
+    icon: AiOutlineSafetyCertificate,
     title: "Maksimalna sigurnost",
     text: "Naši radnici su konstantno osigurani užetom, što eliminiše rizik od pada.",
   },
   {
     id: 5,
-    icon: GiWeight,
+    icon: VscSurroundWith,
     title: "Minimalni uticaj na okruženje",
     text: "Radovi se obavljaju bez narušavanja poslovnih i stambenih prostora.",
   },
@@ -525,10 +529,49 @@ export const limSlike: string[] = [
   "/lim.webp",
   "/lim2.jpg",
   "/lim3.webp",
+  "/alpinizam (10).jpg",
+  "/alpinizam (20).jpg",
+  "/alpinizam (41).jpg",
+  "/alpinizam (25).jpg",
 ];
 export const krovSlike: string[] = [
   "/krov3.jpg",
   "/krov2.jpg",
   "/krov.jpg",
+  "/alpinizam.jpg",
   "/krov4.jpg",
+  "/alpinizam (12).jpg",
+  "/alpinizam (36).jpg",
+];
+export const alpinizamSlike: string[] = [
+  "/alpinizam (2).jpg",
+  "/alpinizam (3).jpg",
+  "/alpinizam (4).jpg",
+  "/alpinizam (6).jpg",
+  "/alpinizam (7).jpg",
+  "/alpinizam (8).jpg",
+  "/alpinizam (9).jpg",
+  "/alpinizam (13).jpg",
+  "/alpinizam (14).jpg",
+  "/alpinizam (15).jpg",
+  "/alpinizam (16).jpg",
+  "/alpinizam (17).jpg",
+  "/alpinizam (19).jpg",
+  "/alpinizam (21).jpg",
+  "/alpinizam (22).jpg",
+  "/alpinizam (24).jpg",
+  "/alpinizam (26).jpg",
+  "/alpinizam (27).jpg",
+  "/alpinizam (28).jpg",
+  "/alpinizam (29).jpg",
+  "/alpinizam (30).jpg",
+  "/alpinizam (31).jpg",
+  "/alpinizam (32).jpg",
+  "/alpinizam (33).jpg",
+  "/alpinizam (34).jpg",
+  "/alpinizam (35).jpg",
+  "/alpinizam (37).jpg",
+  "/alpinizam (38).jpg",
+  "/alpinizam (39).jpg",
+  "/alpinizam (40).jpg",
 ];

@@ -15,7 +15,7 @@ const About2 = () => {
             </span>
           </h2>
           <p className=" first-letter:pl-6 text-lg md:text-3xl">
-            <span className="font-bold primary-text-gradient">SZR M-MIGIC</span>{" "}
+            <span className="font-bold primary-text-gradient">SZR M-MIGIĆ</span>{" "}
             je specijalizovana radnja za izvođenje radova na visini primenom
             industrijskog alpinizma – moderne tehnike koja omogućava efikasan,
             siguran i pristupačan način obavljanja najzahtevnijih zadataka bez

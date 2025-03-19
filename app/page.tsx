@@ -13,7 +13,7 @@ export default function Home() {
       <About2 />
       <PozoviteNasOdmah
         title={
-          "Za visinske radove, SZR M-MIGIC vam stoji na raspolaganju. Kontaktirajte nas za besplatnu procenu."
+          "Za visinske radove, SZR M-MIGIĆ vam stoji na raspolaganju. Kontaktirajte nas za besplatnu procenu."
         }
       />
 

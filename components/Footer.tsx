@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center md:text-left md:grid md:grid-cols-3 gap-8 mx-auto">
           <div>
-            <ul className="pb-5 flex justify-around items-center md:pb-0 md:block md:space-y-2">
+            <ul className="pb-5 items-center md:pb-0 md:space-y-1">
               <li>
                 <Link href="/" className=" hover:text-primary">
                   Početna
@@ -23,10 +23,26 @@ export default function Footer() {
 
               <li>
                 <Link
-                  href="/usluge"
+                  href="/industrijskialpinizam"
                   className="text-muted-foreground hover:text-primary"
                 >
-                  Usluge
+                  Industrijski alpinizam
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/krovopokrivanje"
+                  className="text-muted-foreground hover:text-primary"
+                >
+                  Krovopokrivački radovi
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/limarskiradovi"
+                  className="text-muted-foreground hover:text-primary"
+                >
+                  Limarski radovi
                 </Link>
               </li>
 
@@ -44,16 +60,16 @@ export default function Footer() {
           <div className="space-y-3 pb-5 md:pb-0">
             <div>
               {" "}
-              <a href="tel:+38160 000 000">
+              <a href="tel:+38162332476">
                 <p className="text-muted-foreground  hover:text-primary">
-                  Telefon: +38160 000 000
+                  Telefon: +38162 332 476
                 </p>
               </a>
             </div>
             <div>
-              <a href="mailto:" target={"_blank"}>
+              <a href="mailto:mtmmigic09@gmail.com" target={"_blank"}>
                 <p className="text-muted-foreground text-wrap  hover:text-primary">
-                  Email: starter mail
+                  Email: mtmmigic09@gmail.com
                 </p>
               </a>
             </div>
@@ -66,7 +82,7 @@ export default function Footer() {
                 <Facebook />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/alpinista_migic/"
                 target={"_blank"}
                 className="text-muted-foreground hover:text-primary"
               >
@@ -76,15 +92,15 @@ export default function Footer() {
           </div>
           <div className="md:col-span-1 col-span-2 text-center text-primary">
             <h3 className="text-lg font-semibold mb-2 md:mb-4">
-              starter naslov
+              Industrijski alpinizam
             </h3>
 
-            <p className=" font-bold ">starter poruka</p>
+            <p className=" font-bold ">Visinski radovi</p>
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-10 border-t-[1px] border-cool-green mt-10 pt-5">
-          <p>&copy; 2025 _________. Sva prava zadržana.</p>
+        <div className="flex flex-col items-center md:flex-row justify-center gap-2 md:gap-10 border-t-[1px] border-cool-green mt-10 pt-5">
+          <p>&copy; 2025 M Migic. Sva prava zadržana.</p>
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
             izrada sajta:{" "}
             <span className="font-bold text-primary"> ManikamWebSolutions</span>

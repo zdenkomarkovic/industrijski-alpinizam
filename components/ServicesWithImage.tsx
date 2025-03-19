@@ -9,7 +9,7 @@ const ServicesWithImage = () => {
   return (
     <div className="container px-2 md:px-4 mx-auto text-center pb-10 ">
       <h2 className="text-2xl md:text-5xl text-primary font-bold py-3 md:py-20">
-        Nase usluge
+        Naše usluge
       </h2>
       <div className="flex flex-col md:flex-row gap-6 justify-around items-center ">
         <motion.div

@@ -1,5 +1,7 @@
+import ImageEditor from "@/components/ImageEditor";
 import PozoviteNasOdmah from "@/components/PozoviteNasOdmah";
 import ServicesWithImage from "@/components/ServicesWithImage";
+import { alpinizamSlike } from "@/constants/index";
 import React from "react";
 
 const page = () => {
@@ -50,9 +52,12 @@ const page = () => {
       <ServicesWithImage />
       <PozoviteNasOdmah
         title={
-          "Ako na ovom spisku nema to sto vama treba neznaci da to neradimo – Pozovite i proverite."
+          "Ako na ovom spisku nema to što vama treba ne znači da to ne radimo – Pozovite i proverite."
         }
       />
+      <div className="container px-2 md:px-4 mx-auto py-5">
+        <ImageEditor images={alpinizamSlike} />
+      </div>
     </div>
   );
 };

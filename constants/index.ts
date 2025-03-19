@@ -275,12 +275,6 @@ export const cards2Data1: Cards2Data[] = [
     title: "- Montaža i postavljanje svih vrsta skela na nedostupnim mjestima.",
     text: "",
   },
-  {
-    id: 7,
-    icon: GiWeight,
-    title: "- Postavljanje klima i drugih uređaja na nedostupnim mjestima",
-    text: "",
-  },
 ];
 
 export const cards2Data2: Cards2Data[] = [
@@ -310,15 +304,15 @@ export const cards2Data2: Cards2Data[] = [
     text: "",
   },
   {
-    id: 6,
+    id: 5,
     icon: GiWeight,
-    title: "- Orezivanje grana, krošanja i drveća",
+    title: "- Postavljanje klima i drugih uređaja na nedostupnim mjestima",
     text: "",
   },
   {
-    id: 7,
+    id: 6,
     icon: GiWeight,
-    title: "- Pranje fasada, prozora, skidanje grafita…",
+    title: "- Orezivanje grana, krošanja i drveća",
     text: "",
   },
 ];

@@ -310,12 +310,6 @@ export const cards2Data2: Cards2Data[] = [
     text: "",
   },
   {
-    id: 5,
-    icon: GiWeight,
-    title: "- Pranje i farbanje krovova.",
-    text: "",
-  },
-  {
     id: 6,
     icon: GiWeight,
     title: "- Orezivanje grana, krošanja i drveća",
